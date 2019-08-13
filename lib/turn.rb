@@ -32,6 +32,7 @@ def turn(board)
      move(board, index, current_player = "X")
    else
     until valid_move?(board, index) == true
+    puts "Invalid"
     turn(board)
     end
    end
