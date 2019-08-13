@@ -32,6 +32,7 @@ def turn(board)
      move(board, index, current_player = "X")
    else
     until valid_move == true
+    puts "Please try again:"
     turn(board)
     end
    end
