@@ -32,6 +32,7 @@ def turn(board)
      move(board, index, current_player = "X")
    else
     puts "Try again."
+    input = gets.strip
     turn(board)
     until valid_move == true
     end
