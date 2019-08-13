@@ -33,7 +33,6 @@ def turn(board)
    else
     puts "Invalid"
     turn(board)
-    end
    end
    display_board(board)
 end
