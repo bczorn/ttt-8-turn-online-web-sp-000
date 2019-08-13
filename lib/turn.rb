@@ -31,9 +31,7 @@ def turn(board)
    if true
      move(board, index, current_player = "X")
    else
-    until valid_move == true
-    puts "Please try again."
-    input = gets.strip
+    until valid_move?(board, index) == true
     turn(board)
     end
    end
